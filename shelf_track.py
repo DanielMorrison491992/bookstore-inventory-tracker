@@ -910,7 +910,7 @@ Current Stock: {current_stock}
         case 5:
             print("--Updating Author Country")
             update_author_country(author_id, author_country)
-        case 6:
+        case 0:
             return
 
 def delete_book():
